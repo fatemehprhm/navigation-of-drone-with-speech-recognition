@@ -86,7 +86,7 @@ class MavicDriver:
         unfiltered_name = unfiltered_name.replace('!', '')
         unfiltered_name = unfiltered_name.replace(',', '')
         unfiltered_name = unfiltered_name.lower()
-        unfiltered_list = unfiltered_name.spllistener_callbackit()
+        unfiltered_list = unfiltered_name.split()
         for item in (set(unfiltered_list) - set(del_dict)):
             self.target_name.append(item)
             # pass
