@@ -2,6 +2,8 @@ devel/
 logs/
 build/
 bin/
+log/
+install/
 lib/
 msg_gen/
 srv_gen/
@@ -20,6 +22,8 @@ devel_isolated/
 *.cfgc
 /cfg/cpp/
 /cfg/*.py
+*.pt
+**/test/
 
 # Ignore generated docs
 *.dox
